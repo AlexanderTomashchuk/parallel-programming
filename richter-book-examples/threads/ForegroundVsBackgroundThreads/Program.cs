@@ -11,7 +11,7 @@ namespace ForegroundVsBackgroundThreads
             Thread t = new Thread(Worker);
             
             // Превращение потока в фоновый
-            t.IsBackground = true;
+            //t.IsBackground = true;
             
             t.Start(); // Старт потока
             
