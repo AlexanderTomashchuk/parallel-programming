@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "richter-book-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCancellationToken", "richter-book-examples\threadpools\SimpleCancellationToken\SimpleCancellationToken.csproj", "{9824E8BE-F4F9-46A3-9CD5-6A01C382D86A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedCancellationTokenSource", "richter-book-examples\threadpools\LinkedCancellationTokenSource\LinkedCancellationTokenSource.csproj", "{FE1107E2-0929-47E2-B1A1-ACF0802F8A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tasks", "tasks", "{5190C13E-4B0B-4A32-8338-32558A38AC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateSimpleTasks", "richter-book-examples\tasks\CreateSimpleTasks\CreateSimpleTasks.csproj", "{214857F7-5B0E-49E8-B63E-223B422AF8F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,9 @@ Global
 		{4625C4F8-2584-4F1A-94FE-F19D9A90709C} = {60E6ACC7-362E-48D7-9D26-B6DA13122839}
 		{51437B4F-87CA-4892-9E83-E41CD62C43BC} = {4625C4F8-2584-4F1A-94FE-F19D9A90709C}
 		{9824E8BE-F4F9-46A3-9CD5-6A01C382D86A} = {4625C4F8-2584-4F1A-94FE-F19D9A90709C}
+		{FE1107E2-0929-47E2-B1A1-ACF0802F8A29} = {4625C4F8-2584-4F1A-94FE-F19D9A90709C}
+		{5190C13E-4B0B-4A32-8338-32558A38AC37} = {60E6ACC7-362E-48D7-9D26-B6DA13122839}
+		{214857F7-5B0E-49E8-B63E-223B422AF8F0} = {5190C13E-4B0B-4A32-8338-32558A38AC37}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BE42ECE-267B-4597-8C16-AF04DB99905A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -37,5 +46,13 @@ Global
 		{9824E8BE-F4F9-46A3-9CD5-6A01C382D86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9824E8BE-F4F9-46A3-9CD5-6A01C382D86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9824E8BE-F4F9-46A3-9CD5-6A01C382D86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1107E2-0929-47E2-B1A1-ACF0802F8A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1107E2-0929-47E2-B1A1-ACF0802F8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1107E2-0929-47E2-B1A1-ACF0802F8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1107E2-0929-47E2-B1A1-ACF0802F8A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214857F7-5B0E-49E8-B63E-223B422AF8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214857F7-5B0E-49E8-B63E-223B422AF8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214857F7-5B0E-49E8-B63E-223B422AF8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214857F7-5B0E-49E8-B63E-223B422AF8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
